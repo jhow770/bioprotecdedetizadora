@@ -17,7 +17,8 @@
       z-index: 1;
       justify-content: space-between;
       align-items: center;
-      padding: 20px 8%;
+      padding-left: 8%;
+      padding-right: 8%;
       background: #F9F9F8;
       box-shadow: 0 2px 10px rgba(0,0,0,0.05);
       height: 100px;
@@ -25,29 +26,89 @@
     }
 
     section{
+      height: 100vh;
+    }
+
+    .first{
       height: calc(100vh - 100px);
-      /* margin-top: 100px; */
     }
 
     .logo {
-      font-size: 24px;
-      font-weight: 800;
-      color: #1e3a5f;
+      height: 100px;
     }
 
     .logo span {
       color: #428615;
     }
 
+    nav{
+      display: flex;
+      width: 100%;
+      height: 100%;
+      font-size: 24px;
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+    }
+
+    .nav-item{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 0px !important;
+      padding: 10px;
+    }
+
+    .nav-link:hover{
+      color: #F9F9F8 !important;
+      font-weight: 500;
+      background-color: #1e3a5f;
+    }
+
+    .navbar-collapse{
+      height: stretch
+    }
+
+    .navbar-collapse ul{
+      display: flex;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .navbar-collapse a{
+      margin: 0px !important;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .navbar-collapse ul li{
+      width: 100%;
+      min-width: 200px;
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      padding: 0px;
+    }
+
     nav a {
-      margin: 0 15px;
+
+      display: flex;
+      align-items: center;
+      width: min-content;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      margin: 0;
       text-decoration: none;
       color: #1e3a5f;
       font-weight: 500;
+      height: 100%;
+
     }
 
-    header img{
-        height: stretch
+    img{
+        margin: 15px;
+        height: 100px;
     }
 
     header{
@@ -55,6 +116,15 @@
     }
 
     .btn-whatsapp {
+      background: #428615;
+      color: #F9F9F8;
+      padding: 10px 18px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .btn-whatsapp:hover {
       background: #428615;
       color: #F9F9F8;
       padding: 10px 18px;
@@ -75,13 +145,24 @@
       margin-right: 10px;
     }
 
-    .btn-primary {
-      background: #428615;
+    .btn:hover{
       color: #F9F9F8;
-
+      background: #428615;
     }
 
-    .btn-outline {
+    .btn-primario {
+      background: #428615;
+      color: #F9F9F8;
+      border:#428615;
+    }
+
+    .btn-primario:hover {
+      background: #428615;
+      color: #F9F9F8;
+      border:#428615;
+    }
+
+    .btn-invertido {
       border: 2px solid #428615;
       color: #428615;
     }
