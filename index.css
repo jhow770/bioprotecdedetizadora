@@ -177,7 +177,7 @@
     .banner{
         width: 100vw;
         background-image: url(/img/background2.png);
-        background-position: center;
+        background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
         padding: 20px 8%;
@@ -202,6 +202,10 @@
         font-size: 50px;
         font-weight: bold;
         color: #428615;
+    }
+
+    .banner-text p{
+      margin: 0px;
     }
 
     /* BENEFITS */
