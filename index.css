@@ -304,3 +304,10 @@
     .footer h2 {
       font-size: 28px;
     }
+
+    .footer-content{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      max-width: 60%;
+    }
