@@ -252,12 +252,15 @@
         font-size: 50px;
         font-weight: bold;
         color: #052755;
+        height: 50px;
     }
 
     .banner-text .titleVerde{
         font-size: 50px;
         font-weight: bold;
         color: #428615;
+        height: 50px;
+        margin-bottom: 20px;
     }
 
     .banner-text p{
